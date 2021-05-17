@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import {UnControlledForm,ControlledForm} from './forms';
+import {Modal, ModalContent} from './modal';
 
 function App() {
   return (
     <div className="App">
-      <UnControlledForm></UnControlledForm>
-      <ControlledForm></ControlledForm>
+      <h1>App</h1>
+      <Modal>
+        <ModalContent></ModalContent>
+      </Modal>
     </div>
   );
 }
